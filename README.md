@@ -24,18 +24,27 @@ https://scratch.mit.edu/projects/364982727/
 https://scratch.mit.edu/discuss/post/4340209/
 ```
 #### Lets go over the basics
-* [Variables(#Variables)
-* [Lists](#)
-* [I/O](#)
-* [Loops](#)
-* [Do if](#)
-* ["low level"](#)
-* [other](#)
+* [Variables](#Variables)
+* [Lists](#Lists)
+* [I/O](#Input/Output)
+* [Loops](#Loops)
+* [Do if](#Do if)
+* ["Low Level" stuff](#Low Level Commands)
+* [Other](#Other)
 
 ### Variables
 
+### Lists
 
+### Input/Output
 
+### Loops
+
+### Do if
+
+### Low Level Commands
+
+### Other
 
 
 
