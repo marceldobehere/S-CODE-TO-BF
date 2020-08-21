@@ -6,7 +6,7 @@
 # S-CODE-TO-BF
 make writing Brainfuck code a lot simpler!
 
-I am currently working on a Project in Scratch ( https://scratch.mit.edu/ ) that translates/compiles S-CODE (simple(-ish) programming language I created inside of Scratch based around making BF CODE) into valid and (relatively) short Brainfuck Code.
+I am currently working on a Project in Scratch ( https://scratch.mit.edu/ ) that translates/compiles S-CODE (simple(-ish) programming language I created inside of Scratch, based around making BF CODE) into a valid and (relatively) short Brainfuck Code.
 ## Links
 #### Here is the Project:
 ```
@@ -37,13 +37,29 @@ https://scratch.mit.edu/discuss/post/4340209/
 
 ### Variables
 
-Let's start with some basic Variables. 
-To set up a Variable for later use, just use int.
+Let's start with some basic Variables.  
+  
+To set up a Variable for later use, just use int.  
 
 ```
 int Test
 ```
-This will set up a Variable with the Name "Test"
+To set a Variable to a value, use set.  
+```
+set Test 100
+```
+To set a Variable to another Variable, use copy.  
+```
+copy Test Test2
+```
+To do Math with two variables, use math.  
+Note: The output will get set to the first Variable.  
+Supported Operations are Addition(+) Subtraction(-) Multiplication(star symbol) Floor Division(slash)  
+```
+math Test * Test2
+```
+
+
 
 ### Lists
 
