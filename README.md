@@ -26,7 +26,7 @@ https://scratch.mit.edu/discuss/post/4340209/
 #### Lets go over the basics
 * [Variables](#Variables)
 * [Lists](#Lists)
-* [I/O](#Input/Output)
+* [I/O](#Input-and-Output)
 * [Loops](#Loops)
 * [Do if](#Do-if)
 * [Low Level stuff](#Low-Level-Commands)
@@ -109,9 +109,59 @@ This sets var2 to the (var2) Element of the List.
 
    
    
-### Input/Output
+### Input and Output
+We have a few ways of Input and Output with S-CODE.  
+#### Input
+For input, we have input.
+```
+input var
+```
+This will prompt input and set var to the ASCII value of the input
 
+#### Output
+For Output we have a few Options:  
+output.
+```
+ouput A
+```
+This will output A.  
   
+  
+output#.
+```
+ouput# 10
+```
+This will output 10 (a new line)  
+  
+  
+For new lines we can also just use nl.
+```
+nl
+```
+  
+  
+Do you want to display Long Text?  
+No Problemo! Just use phrase.
+```
+phrase Hello, World!
+```
+Can you guess what it will do?  
+  
+  
+Now let#s output a Variable!  
+```
+outvar var
+```
+This will output the Variable var. (Just like ouput# but with a Variable)  
+  
+  
+Many People faced the HORROR of displaying the Value of a variable in Decimal.  
+But with S-CODE it's as simple as outvardec.
+```
+outvardec var
+```
+This will output the decimal value of the Variable var.   
+
   
    
 ### Loops
