@@ -29,6 +29,7 @@ https://scratch.mit.edu/discuss/post/4340209/
 * [I/O](#Input-and-Output)
 * [Loops](#Loops)
 * [Do if](#Do-if)
+* [Functions](#Functions)
 * [Low Level stuff](#Low-Level-Commands)
 * [Other](#Other)
 
@@ -148,7 +149,7 @@ phrase Hello, World!
 Can you guess what it will do?  
   
   
-Now let#s output a Variable!  
+Now let's output a Variable!  
 ```
 outvar var
 ```
@@ -161,30 +162,115 @@ But with S-CODE it's as simple as outvardec.
 outvardec var
 ```
 This will output the decimal value of the Variable var.   
-
-  
+   
+   
    
 ### Loops
+Now let's get to the Loops!  
+  
+   
+Loops look like this:  
+```
+loop var1 (= > < ≠) var2
+...
+if var1 (= > < ≠) var2 loop
+```
+the *loop* command starts a loop when a condition is given. (Like var1 > var2)  
+Every Loop has to have 1 *if ...* command at the end of it where it will loop if a condition is met (Like var1 ≠ var2)  
+Note: Loops, if and Do commands only work with variables (for now) so set a variable beforehand!  
 
   
   
    
 ### Do if
+The Do if command works like the loop command but only once (no looping)
+```
+do if var1 (= > < ≠) var 2
+...
+stopdo
+```
+you can guess what how it works by now...  
 
   
   
    
-### Low Level Commands
+### Functions
+Functions are like Do if but without the if.  
+Add them with this code:
+```
+function name
+...
+endfunc
+```
+Call a function with func.  
+```
+func test
+```
+Note: Functions use global variables like everything else and functions CANNOT have other Functions inside!!! (it could cause an endless loop of compiling)  
 
+  
+  
+  
+  
+### Low Level Commands
+Low Level Commands are for manipulating Cells or/and the Pointer directly.  
+We have raw.  
+This allows you to paste your own BF Code inside of the S-CODE.  
+```
+raw >>>+>-[>+<-]
+```
+Note: When using the raw command, you should always use goto beforehand AND the pointer HAS TO BE EXACTLY WHERE IT WAS BEFORE THE RAW CODE!!!!  
+  
+  
+Then we have cellcopy.  
+This allows you to copy one Cell to another.  
+```
+cellcopy 20 35
+```
+This copies the Cell 20 to the Cell 35.  
+    
+  
+Then celllchange.  
+It changes a cell by some amount
+```
+( You can only use + or - )
+celllchange 10 + 2
+```
+This changed the Cell 10 by 2.   
+
+
+
+And last but not least vcellchange.  
+```
+vcellchange 10 + var
+```
+This changed the Cell 10 by (var).  
+  
+  
+And of Course goto.  
+```
+goto 10
+```
+It sets the Pointer to 10.  
   
   
    
 ### Other
+Here are some Commands that don't fit in the other Categories:
 
-  
-  
+#.  
+```
+# Your Comment goes here
+ ``` 
+It's for commenting.  
    
 
 ## Examples
-test bla bla bla
+
+Here are some Example Programs I made for you!  
+
+
+
+
+### Hello, World!
 
