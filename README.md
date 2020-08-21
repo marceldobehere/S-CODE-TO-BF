@@ -91,6 +91,21 @@ This sets the (var1) Element of the List to (var2).
   
    
 Now we want to set a Variable to some Element of a List!  
+Just use lsetvar.  
+```
+lsetvar Test 1 var
+```
+This sets var to the first Element of the List .  
+  
+  
+And now again with the X'th Element.  
+Can you guess it?  
+Its lsetvvar.  
+```
+lsetvvar Test var1 var2
+```
+This sets var2 to the (var2) Element of the List.  
+  
 
    
    
