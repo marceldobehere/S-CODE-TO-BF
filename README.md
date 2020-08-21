@@ -6,7 +6,20 @@
 # S-CODE-TO-BF
 make writing Brainfuck code a lot simpler! (Uses 8bit cells and cell wrapping where [-]- would set the cell to 255)  
 
-I am currently working on a Project in Scratch ( https://scratch.mit.edu/ ) that translates/compiles S-CODE (simple(-ish) programming language I created inside of Scratch, based around making BF CODE) into a valid and (relatively) short Brainfuck Code.
+I am currently working on a Project in Scratch ( https://scratch.mit.edu/ ) that translates/compiles S-CODE (simple(-ish) programming language I created inside of Scratch, based around making BF CODE) into a valid and (relatively) short Brainfuck Code.  
+### Features
+Here are some Features it has:  
+```
+Variables
+Lists
+I/O functions
+Loops 
+Do 
+Functions
+Low Level Commands
+Math
+Programs can be im/ex ported and written in another text editor (save it as a .txt and don't use " because scratch lists don't like that character)
+```
 ## Links
 #### Here is the Project:
 ```
