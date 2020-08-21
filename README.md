@@ -54,27 +54,43 @@ copy Test Test2
 ```
 To do Math with two variables, use math.  
 Note: The output will get set to the first Variable.  
-Supported Operations are Addition(+) Subtraction(-) Multiplication(star symbol) Floor Division(slash)  
 ```
+Supported Operations are Addition(+) Subtraction(-) Multiplication(*) Floor Division(/)  
 math Test * Test2
 ```
-
-
-
+  
+  
+   
 ### Lists
 
+  
+  
+   
 ### Input/Output
 
+  
+  
+   
 ### Loops
 
+  
+  
+   
 ### Do if
 
+  
+  
+   
 ### Low Level Commands
 
+  
+  
+   
 ### Other
 
-
-
+  
+  
+   
 
 ## Examples
 test bla bla bla
