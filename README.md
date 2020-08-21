@@ -28,8 +28,8 @@ https://scratch.mit.edu/discuss/post/4340209/
 * [Lists](#Lists)
 * [I/O](#Input/Output)
 * [Loops](#Loops)
-* [Do if](#Do if)
-* [Low Level stuff](#Low Level Commands)
+* [Do if](#Do-if)
+* [Low Level stuff](#Low-Level-Commands)
 * [Other](#Other)
 
 ### Variables
