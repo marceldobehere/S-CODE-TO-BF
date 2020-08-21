@@ -1,5 +1,5 @@
 ## Table of contents
-* [Description and Links(#S-CODE-TO-BF)
+* [Description and Links](#S-CODE-TO-BF)
 * [Commands and Syntax](#Commands)
 * [Examples](#Examples)
 
@@ -29,7 +29,7 @@ https://scratch.mit.edu/discuss/post/4340209/
 * [I/O](#Input/Output)
 * [Loops](#Loops)
 * [Do if](#Do if)
-* ["Low Level" stuff](#Low Level Commands)
+* [Low Level stuff](#Low Level Commands)
 * [Other](#Other)
 
 ### Variables
