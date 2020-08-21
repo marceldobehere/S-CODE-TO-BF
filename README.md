@@ -1,5 +1,5 @@
 ## Table of contents
-* [Beginning](#S-CODE-TO-BF)
+* [Description and Links(#S-CODE-TO-BF)
 * [Commands and Syntax](#Commands)
 * [Examples](#Examples)
 
@@ -16,14 +16,26 @@ https://scratch.mit.edu/projects/418348452/
 ```
 https://scratch.mit.edu/projects/364982727/
 ```
-#### Here is the command list:
-```
-https://scratch.mit.edu/discuss/post/4340209/
-```
 
 
 ## Commands
-test bla bla bla
+#### Here is the updating command list:
+```
+https://scratch.mit.edu/discuss/post/4340209/
+```
+#### Lets go over the basics
+* [Variables(#Variables)
+* [Lists](#)
+* [I/O](#)
+* [Loops](#)
+* [Do if](#)
+* ["low level"](#)
+* [other](#)
+
+### Variables
+
+
+
 
 
 
