@@ -32,7 +32,18 @@ https://scratch.mit.edu/discuss/post/4340209/
 * [Low Level stuff](#Low-Level-Commands)
 * [Other](#Other)
 
+
+
+
 ### Variables
+
+Let's start with some basic Variables. 
+To set up a Variable for later use, just use int.
+
+```
+int Test
+```
+This will set up a Variable with the Name "Test"
 
 ### Lists
 
