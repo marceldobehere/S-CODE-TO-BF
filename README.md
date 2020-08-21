@@ -4,7 +4,7 @@
 * [Examples](#Examples)
 
 # S-CODE-TO-BF
-make writing Brainfuck code a lot simpler!
+make writing Brainfuck code a lot simpler! (Uses 8bit cells and cell wrapping where [-]- would set the cell to 255)  
 
 I am currently working on a Project in Scratch ( https://scratch.mit.edu/ ) that translates/compiles S-CODE (simple(-ish) programming language I created inside of Scratch, based around making BF CODE) into a valid and (relatively) short Brainfuck Code.
 ## Links
@@ -52,19 +52,36 @@ To set a Variable to another Variable, use copy.
 ```
 copy Test Test2
 ```
-To do Math with two variables, use math.  
+To do Math with two Variables, use math.  
 Note: The output will get set to the first Variable.  
 ```
-Supported Operations are Addition(+) Subtraction(-) Multiplication(*) Floor Division(/)  
+( Supported Operations are Addition(+) Subtraction(-) Multiplication(*) Floor Division(/) )  
 math Test * Test2
 ```
   
   
    
 ### Lists
+Next up are Lists.  
+  
+To set up a List for later use, just use lint.  
 
+```
+lint Test (amount of elements)
+```
+To set an Element to a value, use lset.  
+```
+lset Test 1 5
+```
+This sets the first Element of the List to 5.  
   
+To set an Element to a Variable, use vlset.  
+```
+lset Test 1 5
+```
+This sets the first Element of the List to the value of Var.  
   
+
    
 ### Input/Output
 
