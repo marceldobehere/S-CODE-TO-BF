@@ -1,3 +1,8 @@
+## Table of contents
+* [Beginning](#S-CODE-TO-BF)
+* [Commands and Syntax](#Commands)
+* [Examples](#Examples)
+
 # S-CODE-TO-BF
 make writing Brainfuck code a lot simpler!
 
@@ -15,3 +20,14 @@ https://scratch.mit.edu/projects/364982727/
 ```
 https://scratch.mit.edu/discuss/post/4340209/
 ```
+
+
+## Commands
+test bla bla bla
+
+
+
+
+## Examples
+test bla bla bla
+
