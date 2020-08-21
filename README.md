@@ -77,11 +77,22 @@ This sets the first Element of the List to 5.
   
 To set an Element to a Variable, use vlset.  
 ```
-lset Test 1 5
+vlset Test 1 var
 ```
-This sets the first Element of the List to the value of Var.  
+This sets the first Element of the List to (var).  
   
+   
+Now we want to set the X'th Element of a List to a Variable.  
+Just use vvlset.  
+```
+vvlset Test var1 var2
+```
+This sets the (var1) Element of the List to (var2).  
+  
+   
+Now we want to set a Variable to some Element of a List!  
 
+   
    
 ### Input/Output
 
