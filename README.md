@@ -273,4 +273,52 @@ Here are some Example Programs I made for you!
 
 
 ### Hello, World!
+ ``` 
+phrase Hello, World!
+ ``` 
+ 
+ ### Number Comparator
+ ``` 
+int a
+int b
+phrase input number one: 
+input a
+outvar a
+nl
+phrase input number two: 
+input b
+outvar b
 
+loop a = b
+nl
+outvar a
+phrase =
+outvar b
+if a = b loop
+
+loop a > b
+nl
+outvar a
+phrase >
+outvar b
+if a > b loop
+
+loop a < b
+nl
+outvar a
+phrase <
+outvar b
+if a < b loop
+ ```  
+ ### get decimal ASCII of input
+ ``` 
+int a
+phrase Enter a character
+raw +[
+input a
+nl
+outvar a
+phrase : 
+outvardec a
+raw ]
+ ```  
