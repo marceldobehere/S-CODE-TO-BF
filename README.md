@@ -329,11 +329,12 @@ if a < b loop
  ``` 
 int a
 phrase Enter a character
-raw +[
+loop a = a
 input a
 nl
 outvar a
 phrase : 
 outvardec a
-raw ]
- ```  
+if a = a loop
+ ``` 
+ 
