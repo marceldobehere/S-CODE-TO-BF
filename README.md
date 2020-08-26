@@ -31,6 +31,10 @@ https://scratch.mit.edu/projects/418348452/
 ```
 https://scratch.mit.edu/projects/364982727/
 ```
+#### Here is an OS (a GUI) I made with S-CODE:
+```
+https://github.com/marceldobehere/BF-OS
+```
 
 
 ## Commands
@@ -38,6 +42,9 @@ https://scratch.mit.edu/projects/364982727/
 ```
 https://scratch.mit.edu/discuss/post/4340209/
 ```
+
+
+
 #### Lets go over the basics
 * [Variables](#Variables)
 * [Lists](#Lists)
