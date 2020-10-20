@@ -90,7 +90,7 @@ Next up are Lists.
 To set up a List for later use, just use lint.  
 
 ```
-lint Test (amount of elements)
+intl Test (amount of elements)
 ```
 To set an Element to a value, use lset.  
 ```
